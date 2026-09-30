@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Documentação da API NASA POWER
+    url: https://power.larc.nasa.gov/docs/
+    about: Dúvidas sobre variáveis, unidades e metodologia dos dados.

@@ -1,0 +1,40 @@
+name: Relatar um erro
+description: Algo não funcionou como deveria
+labels: [erro]
+body:
+  - type: markdown
+    attributes:
+      value: Obrigado por relatar! Quanto mais fácil de reproduzir, mais rápido corrigimos.
+  - type: textarea
+    id: descricao
+    attributes:
+      label: O que aconteceu?
+      description: Descreva o erro e o que você esperava que acontecesse.
+    validations:
+      required: true
+  - type: textarea
+    id: comando
+    attributes:
+      label: Comando executado
+      placeholder: Rscript baixar_nasa_power.R minhas_estacoes.xlsx saida.csv
+      render: shell
+    validations:
+      required: true
+  - type: textarea
+    id: mensagem
+    attributes:
+      label: Mensagem de erro completa
+      render: text
+  - type: textarea
+    id: estacoes
+    attributes:
+      label: Tabela de estações mínima que reproduz o problema
+      description: Algumas linhas bastam. Pode trocar os nomes, mas mantenha formatos de data e coordenadas.
+      render: csv
+  - type: input
+    id: versao-r
+    attributes:
+      label: Versão do R e sistema operacional
+      placeholder: R 4.5.1, Windows 11
+    validations:
+      required: true
