@@ -1,0 +1,4 @@
+# Normaliza finais de linha: o repositório usa LF, o Windows converte no checkout.
+* text=auto eol=lf
+*.png binary
+*.xlsx binary

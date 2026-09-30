@@ -1,0 +1,39 @@
+cff-version: 1.2.0
+title: "nasa-power-batch: download em lote de dados meteorológicos diários da NASA POWER"
+message: "Se você usar este software, por favor cite-o conforme abaixo."
+type: software
+authors:
+  - family-names: Leite
+    given-names: Igor Vieira
+    alias: igorleite91
+repository-code: "https://github.com/igorleite91/nasa-power-batch"
+url: "https://github.com/igorleite91/nasa-power-batch"
+abstract: >-
+  Rotina em R para baixar séries meteorológicas diárias da API NASA POWER para
+  uma lista de estações ou pontos lidos de CSV ou Excel. Valida a entrada,
+  aplica limite de taxa e novas tentativas automáticas, converte o valor de
+  preenchimento -999 em NA, mantém cache por estação para retomar lotes
+  interrompidos e registra falhas sem interromper o processamento. O conjunto
+  padrão de variáveis atende ao cálculo da evapotranspiração de referência
+  FAO-56 Penman-Monteith, e a saída é organizada para
+  pareamento e regressão com medições de estações meteorológicas in loco.
+keywords:
+  - NASA POWER
+  - weather data
+  - dados meteorológicos
+  - reanalysis
+  - MERRA-2
+  - evapotranspiration
+  - evapotranspiração
+  - agrometeorology
+  - agrometeorologia
+  - in situ weather stations
+  - bias correction
+  - gap filling
+  - R
+  - httr2
+  - forestry
+  - agronomy
+license: MIT
+version: 1.0.0
+date-released: "2026-09-30"

@@ -1,0 +1,22 @@
+name: Sugerir melhoria
+description: Nova funcionalidade, variável, formato de saída…
+labels: [melhoria]
+body:
+  - type: textarea
+    id: problema
+    attributes:
+      label: Qual problema isso resolve?
+      description: Conte o caso de uso — ex. "preciso de dados horários para 200 pivôs".
+    validations:
+      required: true
+  - type: textarea
+    id: proposta
+    attributes:
+      label: Proposta
+      description: Como você imagina a solução?
+  - type: checkboxes
+    id: ajuda
+    attributes:
+      label: Contribuição
+      options:
+        - label: Posso abrir um pull request com isso

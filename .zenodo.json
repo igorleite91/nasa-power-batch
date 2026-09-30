@@ -1,0 +1,34 @@
+{
+  "title": "nasa-power-batch: download em lote de dados meteorológicos diários da NASA POWER",
+  "upload_type": "software",
+  "access_right": "open",
+  "license": "mit",
+  "version": "1.0.0",
+  "creators": [
+    {
+      "name": "Leite, Igor Vieira"
+    }
+  ],
+  "description": "<p>Rotina em R para baixar séries meteorológicas <strong>diárias</strong> da API <strong>NASA POWER</strong> para uma lista de estações ou pontos, lidos de CSV ou Excel.</p><p>A entrada é validada antes do download; as requisições têm limite de taxa e novas tentativas automáticas; o valor de preenchimento -999 da API é convertido em NA; um cache por estação permite retomar lotes interrompidos; e falhas individuais são registradas sem interromper o processamento. O conjunto padrão de variáveis (radiação no topo da atmosfera e na superfície, temperatura média/mínima/máxima, umidade relativa, vento a 2 m, precipitação e altitude) atende ao cálculo da evapotranspiração de referência FAO-56 Penman-Monteith.</p><p>Acompanha testes automatizados que usam respostas reais da API gravadas como fixtures, sem depender de rede.</p><hr><p><em>R routine for batch download of NASA POWER daily weather data for a list of stations or points, with input validation, throttling, automatic retries, fill-value handling, per-station cache and failure reporting. Default variables cover FAO-56 Penman-Monteith reference evapotranspiration.</em></p>",
+  "keywords": [
+    "NASA POWER",
+    "weather data",
+    "dados meteorológicos",
+    "reanalysis",
+    "MERRA-2",
+    "evapotranspiration",
+    "evapotranspiração",
+    "agrometeorology",
+    "R",
+    "forestry",
+    "agronomy"
+  ],
+  "language": "por",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/igorleite91/nasa-power-batch",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
+}

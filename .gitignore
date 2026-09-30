@@ -1,0 +1,21 @@
+# Saídas geradas pelo script
+saida/
+cache/
+*_falhas.csv
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+.Renviron
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editores
+.vscode/
+.idea/
+*.swp
